@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymSelf.UnitTests", "..\tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymSelf.IntegrationTests", "..\tests\GymSelf.IntegrationTests\GymSelf.IntegrationTests.csproj", "{695E9FAE-FA4D-458C-9B3D-1AC2648B1208}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymSelf.Contracts", "GymSelf.Contracts\GymSelf.Contracts.csproj", "{F35D73F2-A5F6-48CB-98F9-0A4DFC722D3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{695E9FAE-FA4D-458C-9B3D-1AC2648B1208}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{695E9FAE-FA4D-458C-9B3D-1AC2648B1208}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{695E9FAE-FA4D-458C-9B3D-1AC2648B1208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35D73F2-A5F6-48CB-98F9-0A4DFC722D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35D73F2-A5F6-48CB-98F9-0A4DFC722D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35D73F2-A5F6-48CB-98F9-0A4DFC722D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35D73F2-A5F6-48CB-98F9-0A4DFC722D3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{D29D86D9-D494-4134-9AE1-EB2A1CA8BA8F} = {916B079A-B7F2-47FB-9889-71287D12088A}
 		{B028F8AC-7CA4-4A43-9125-B27B61492BBB} = {485521CF-D2BE-4AF8-BF06-A52F74B878C4}
 		{695E9FAE-FA4D-458C-9B3D-1AC2648B1208} = {485521CF-D2BE-4AF8-BF06-A52F74B878C4}
+		{F35D73F2-A5F6-48CB-98F9-0A4DFC722D3D} = {24AF641E-2A42-4EEC-B4D5-EABC065788BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6951A9FC-ABAB-4FC5-8469-31C4C89E3B09}
